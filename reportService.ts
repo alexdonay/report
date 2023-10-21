@@ -6,7 +6,7 @@ export class ReportService {
     
     if (report) {
         report.generateReport();
-        console.log("Gerando Relatório");
+       
         
     } else {
         console.log(`Relatório '${reportName}' não encontrado.`);
