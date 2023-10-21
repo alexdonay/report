@@ -1,0 +1,46 @@
+
+{
+
+    "sales": [
+      {
+        "id": 1,
+        "product": "Produto A",
+        "quantity": 10,
+        "price": 25.99,
+        "customer": "Cliente 1",
+        "date": "2023-10-20"
+      },
+      {
+        "id": 2,
+        "product": "Produto B",
+        "quantity": 5,
+        "price": 14.50,
+        "customer": "Cliente 2",
+        "date": "2023-10-21"
+      },
+      {
+        "id": 3,
+        "product": "Produto A",
+        "quantity": 8,
+        "price": 25.99,
+        "customer": "Cliente 3",
+        "date": "2023-10-22"
+      },
+      {
+        "id": 4,
+        "product": "Produto C",
+        "quantity": 12,
+        "price": 32.75,
+        "customer": "Cliente 4",
+        "date": "2023-10-22"
+      },
+      {
+        "id": 5,
+        "product": "Produto B",
+        "quantity": 7,
+        "price": 14.50,
+        "customer": "Cliente 5",
+        "date": "2023-10-23"
+      }
+    ]
+  }
