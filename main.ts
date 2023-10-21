@@ -1,6 +1,9 @@
-import { ReportService } from './reportService';
+import saleReport from "./reports/saleReport/saleReport";
+import saleReport3 from "./reports/saleReport3/saleReport2";
+import ReportService from "./services/reportService";
 
-const reportService = new ReportService();
+const sale = new saleReport()
+const sale3 = new saleReport3()
+const reportService = new ReportService()
 
-reportService.generateAndPrintReport('sales');
-reportService.generateAndPrintReport('sales2');
+reportService.generateReport(sale3)
