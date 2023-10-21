@@ -1,3 +1,4 @@
+import reportGeneratorService from "./reportGeneratorService";
 import { reportRegistry } from "./reportRegistry";
 
 export class ReportService {
@@ -5,7 +6,9 @@ export class ReportService {
     const report = reportRegistry[reportName];
     
     if (report) {
-        report.generateReport();
+        const generator = new reportGeneratorService
+        generator.generateReport(report)
+        
        
         
     } else {
